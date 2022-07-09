@@ -41,7 +41,14 @@ packer.init({
 -- Install your plugins here
 return packer.startup(function(use)
 	-- My plugins here
-
+  use 'wbthomason/packer.nvim' -- packer itself
+  use 'nvim-lua/plenary.nvim' -- helper functions, required by many other plugins
+  use {
+    'windwp/nvim-autopairs', 
+    config = function ()
+      require("nvim-autopairs").setup {}
+    end
+  }
 
 	-- Colorschemes
 	use("lunarvim/darkplus.nvim")

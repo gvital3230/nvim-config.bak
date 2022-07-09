@@ -83,7 +83,6 @@ return packer.startup(function(use)
   }
 
 	use 'akinsho/toggleterm.nvim'
-
 	-- Colorschemes
 	use("lunarvim/darkplus.nvim")
 
@@ -94,6 +93,8 @@ return packer.startup(function(use)
 	-- LSP
 
 	-- Telescope
+	use 'nvim-telescope/telescope.nvim'
+	use 'ahmedkhalf/project.nvim'
 
 	-- Treesitter
 

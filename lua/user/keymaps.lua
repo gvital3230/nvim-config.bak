@@ -72,3 +72,9 @@ keymap("n", "<leader>e", ":NvimTreeToggle<cr>", opts)
 
 -- Close buffer
 keymap("n", "<leader>q", ":Bdelete<cr>", opts)
+
+-- Telescope 
+keymap("n", "<leader>ff", "<cmd>Telescope find_files<cr>", opts)
+keymap("n", "<leader>ft", "<cmd>Telescope live_grep<cr>", opts)
+keymap("n", "<leader>fp", "<cmd>Telescope projects<cr>", opts)
+

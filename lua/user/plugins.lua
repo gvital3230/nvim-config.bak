@@ -77,6 +77,11 @@ return packer.startup(function(use)
 
 	use 'moll/vim-bbye' -- nicer closing buffers
 
+  use {
+    'nvim-lualine/lualine.nvim',
+    requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+  }
+
 	-- Colorschemes
 	use("lunarvim/darkplus.nvim")
 

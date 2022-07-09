@@ -69,3 +69,6 @@ keymap("x", "<A-k>", ":move '<-2<CR>gv-gv", opts)
 
 -- Nvim tree
 keymap("n", "<leader>e", ":NvimTreeToggle<cr>", opts)
+
+-- Close buffer
+keymap("n", "<leader>q", ":Bdelete<cr>", opts)

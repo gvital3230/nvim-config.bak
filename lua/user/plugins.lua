@@ -75,6 +75,7 @@ return packer.startup(function(use)
     end
   }
 
+	use 'moll/vim-bbye' -- nicer closing buffers
 
 	-- Colorschemes
 	use("lunarvim/darkplus.nvim")

@@ -9,3 +9,5 @@ require "user.project"
 require "user.telescope"
 require "user.alpha"
 require "user.whichkey"
+require "user.cmp"
+

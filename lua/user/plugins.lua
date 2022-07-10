@@ -88,6 +88,8 @@ return packer.startup(function(use)
 
     -- Colorschemes
     use("lunarvim/darkplus.nvim")
+
+    -- Dashboard
 	use 'goolord/alpha-nvim'
     -- cmp plugins
 

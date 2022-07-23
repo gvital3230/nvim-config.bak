@@ -44,7 +44,7 @@ return packer.startup(function(use)
   use 'wbthomason/packer.nvim' -- packer itself
   use 'nvim-lua/plenary.nvim' -- helper functions, required by many other plugins
   use {
-    'windwp/nvim-autopairs', 
+    'windwp/nvim-autopairs',
     config = function ()
       require("nvim-autopairs").setup {}
     end
@@ -66,8 +66,8 @@ return packer.startup(function(use)
   }
 
   use {
-    'akinsho/bufferline.nvim', 
-    tag = "v2.*", 
+    'akinsho/bufferline.nvim',
+    tag = "v2.*",
     requires = 'kyazdani42/nvim-web-devicons',
 
     config = function()
@@ -105,7 +105,10 @@ return packer.startup(function(use)
 	-- use "rafamadriz/friendly-snippets" -- a bunch of snippets to use
 
   -- LSP
-  use 'neovim/nvim-lspconfig' 
+  use "neovim/nvim-lspconfig"
+  use "williamboman/nvim-lsp-installer"
+  use "jose-elias-alvarez/null-ls.nvim"
+  use "RRethy/vim-illuminate"
 
   -- Telescope
   use 'nvim-telescope/telescope.nvim'

@@ -117,10 +117,12 @@ return packer.startup(function(use)
   -- Treesitter
 	use 'nvim-treesitter/nvim-treesitter'
   use 'nvim-treesitter/playground'
-
-  -- Git
+  use 'theHamsta/nvim-dap-virtual-text'
 
   -- DAP
+  use 'mfussenegger/nvim-dap'
+  use 'rcarriga/nvim-dap-ui'
+  use 'leoluz/nvim-dap-go'
 
   -- Editorconfig support
   use 'gpanders/editorconfig.nvim'

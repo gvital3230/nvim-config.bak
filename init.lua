@@ -10,4 +10,5 @@ require "user.alpha"
 require "user.whichkey"
 require "user.cmp"
 require "user.lsp"
+require "user.treesitter"
 

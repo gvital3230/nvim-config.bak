@@ -115,6 +115,8 @@ return packer.startup(function(use)
   use 'ahmedkhalf/project.nvim'
 
   -- Treesitter
+	use 'nvim-treesitter/nvim-treesitter'
+  use 'nvim-treesitter/playground'
 
   -- Git
 

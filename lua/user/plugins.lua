@@ -126,6 +126,9 @@ return packer.startup(function(use)
   -- DAP Golang
   use 'leoluz/nvim-dap-go'
 
+  -- DAP lua
+  use 'jbyuki/one-small-step-for-vimkind'
+
   -- Editorconfig support
   use 'gpanders/editorconfig.nvim'
 

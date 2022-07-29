@@ -138,6 +138,14 @@ return packer.startup(function(use)
   -- Editorconfig support
   use 'gpanders/editorconfig.nvim'
 
+  -- Git
+  use {
+    'lewis6991/gitsigns.nvim',
+    config = function()
+      require('gitsigns').setup()
+    end
+  }
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
